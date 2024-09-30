@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(img-0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    display: flex;
+    
+}
+.logo-section a{
+    margin: 20px;
+    padding: 22px;
+    text-decoration: none;
+    color: aqua;
+    text-transform: uppercase;
+}
+.menu-section ul li{
+    display: inline-block;
+    
+}
+.menu-section{
+    width: 80%;
+}
+.menu-section ul li a{
+    padding: 3px;
+    margin:15px ;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+.menu-section ul li a:hover{
+    background-color: blueviolet;
+}
+    
+
